@@ -6,12 +6,10 @@ Instructions:
 Answer the following questions based on your understanding of software engineering concepts. Provide detailed explanations and examples where appropriate.
 
 Questions:
-Define Software Engineering:
-It is an engineering discipline that focuses on building software.
-It involves requirements gathering, writing the code, testing it to make sure it works correctly and then releasing  and maintaining it
-over time.
+Q1. Define Software Engineering:
+It is an engineering discipline that focuses on building software.It involves requirements gathering, writing the code, testing it to make sure it works correctly and then releasing  and maintaining it over time.
 
-What is software engineering, and how does it differ from traditional programming?
+Q2. What is software engineering, and how does it differ from traditional programming?
 Software engineering 
 1.It focuses on the entire software lifecycle -This includes planning, designing, developing, testing, deploying, and maintaining software.
 2.It is team-oriented -Software engineering projects are often complex and require the collaboration of various specialists like designers, programmers, and testers.
@@ -24,7 +22,7 @@ Traditional programming
 
 Software Development Life Cycle (SDLC):
 
-Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.
+Q3. Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.
 
 Software Development Life Cycle consists of:
 1.Planning and Requirement Analysis: This phase focuses on understanding the needs of the project. The team gathers requirements from stakeholders, defines the project scope, and creates a plan for development.
@@ -37,7 +35,7 @@ Software Development Life Cycle consists of:
 
 Agile vs. Waterfall Models:
 
-Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?
+Q4. Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?
 Waterfall Model
 1.Sequential Phases: Each phase (planning, design, development, testing, deployment) must be completed entirely before moving to the next.
 2.Detailed Planning: Requires a clear and well-defined set of requirements upfront. Changes are difficult and expensive to incorporate later in the process.
@@ -50,7 +48,7 @@ Use cases:  mobile applications, web applications
 
 Requirements Engineering:
 
-What is requirements engineering? Describe the process and its importance in the software development lifecycle.
+Q5. What is requirements engineering? Describe the process and its importance in the software development lifecycle.
 
 Requirements Engineering is the process of understanding, documenting, and managing the needs and expectations of all stakeholders involved in a software system. The Requirements Engineering process involves:
 1.Elicitation and Analysis: It involves gathering requirements from various sources like user interviews and workshops. The team then analyzes the gathered information to identify key needs, prioritize them, and identify any inconsistencies.
@@ -61,7 +59,7 @@ Requirements engineering is important as it provides a clear vision of what the 
 
 Software Design Principles:
 
-Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?
+Q6. Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?
 Testing in Software Engineering:
 
 Modularity in software design is the principle of breaking down a complex software system into smaller, self-contained units called modules which work together to achieve the overall functionality of the system. 
@@ -75,7 +73,7 @@ It enhances scalability through:
 2.Parallel Development: With modular design, different teams can work on separate modules concurrently allowing for faster development cycles.
 3.Distributed Systems: Modular systems can be easily distributed across multiple servers or machines. This improves reliability by enabling parallel processing and redundancy.
 
-Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
+Q7. Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
 
 1. Unit Testing: It focuses on individual units of code (like functions or classes) in isolation. Developers typically write and execute unit tests to verify if each unit behaves as expected with various inputs.  
 2.Integration Testing:  Once individual units are tested, integration testing focuses on how these units work together. Here, testers combine multiple modules to verify their interaction and data flow between them. 
@@ -85,7 +83,7 @@ Testing is crucial by ensuring early bug detection, improved quality, reduced ri
 
 Version Control Systems:
 
-What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.
+Q8. What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.
 
 Version control systems are essential tools for software development teams. They act like a digital filing cabinet for your code, keeping track of every change made over time. 
 They are important due to these features:
@@ -97,7 +95,7 @@ Some popular VCS options include:
 Git: It stores a complete copy of the codebase on each developer's machine, enabling offline work and greater flexibility.
 Subversion (SVN): A centralized VCS where all code modifications are stored on a central server. Offers a simpler user interface but less flexibility compared to Git.
 
-Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?
+Q9. Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?
 Responsibilities include:
 1.Project Planning and Scope Definition: The project manager lays out the roadmap, defining the project's goals, scope, timeline, and budget.
 2.Resource Management: The project manager allocates resources (people, time, budget) effectively to ensure tasks are completed on time and within budget.
@@ -109,7 +107,7 @@ Challenges include:
 
 Software Maintenance:
 
-Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle?
+Q10. Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle?
 
 Software maintenance is the ongoing process of modifying, updating, and caring for a software system after its initial development and deployment. 
 There are four main types of software maintenance activities:
@@ -125,7 +123,7 @@ Software maintenance is essential because it:
 
 Ethical Considerations in Software Engineering:
 
-What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?
+Q11. What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?
 
 Common ethical issues software engineers might face:
 1.Bias and Fairness: Algorithms and machine learning models can perpetuate biases present in the data they are trained on. This can lead to discriminatory outcomes, for example, in loan approvals or job applications.
